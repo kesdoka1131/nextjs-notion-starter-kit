@@ -7,6 +7,7 @@ export function ErrorPage({ statusCode }: { statusCode: number }) {
   return (
     <>
       <PageHead title={title} />
+  <a link="">abcd</a>
 
       <div className={styles.container}>
         <main className={styles.main}>
